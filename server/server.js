@@ -1,11 +1,13 @@
+import cors from "cors";
 import express from "express";
 import routerFacts from "./routes/routeFacts.js";
 
 const app = express();
 const port = 3000;
 app.use(express.json());
+app.use(cors());
 
-app.use('/api/fact/', routerFacts);
+app.use("/api/fact/", routerFacts);
 
 app.listen(port, () => {
 	console.log(`Example app listening on port ${port}`);
