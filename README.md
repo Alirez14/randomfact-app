@@ -7,10 +7,10 @@ you can also delete / modify a fact from the favorites list.
 you can create a new fact and add it to the list of favorites facts.
 ## bonus features:
 
-add a search bar to search for a facts in favorites list (filter)
-* add a switch to the page to change the language of random facts (en , de)
-add a settings page to change the color of the font of the app 
-use open ai to generate images for the favorite facts
++ add a search bar to search for a facts in favorites list (filter)
++ add a switch to the page to change the language of random facts (en , de)
++ add a settings page to change the color of the font of the app 
++ use open ai to generate images for the favorite facts
 
 ## Requirements
 
