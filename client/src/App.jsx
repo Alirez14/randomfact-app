@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import ComFactCard from "./components/comFactCard.jsx";
 import ComFavoritesList from "./components/comFavoritesList.jsx";
+import ComFactFrom from "./components/comFactFrom.jsx";
 import { constantsGeneral } from "./constants/constantsGeneral";
 
 const getRandomFact = async (setRandomFact, lang = "en") => {
@@ -47,6 +48,7 @@ function App() {
 				facts={facts}
 				setFacts={setFacts}
 			></ComFavoritesList>
+			<ComFactFrom setFavList={setFacts}></ComFactFrom>
 		</div>
 	);
 }

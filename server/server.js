@@ -18,4 +18,6 @@ app.listen(port, () => {
 // D: delete fav fact done
 // U: update fav fact done
 // R: read fav with filter
+// write the list to the file
+// read the list from the file
 // R : open ai dalle
